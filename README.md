@@ -45,6 +45,9 @@ This document explains the key concepts of machine learning, including supervise
 - Can be deployed on platforms like Render, AWS, or Hugging Face  
 
 ---
+**Document → Preprocessing → Chunking → Embeddings → Vector Store (FAISS) → Retrieval → LLM → Response**
+WHY RAG:This approach improves accuracy by grounding responses in retrieved document context instead of relying solely on LLM knowledge.
+Use cases: Document QA, knowledge assistants, enterprise search systems
 
 ## ▶️ How to Run
 
